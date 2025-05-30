@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <title>Calc</title>
+</head>
+<body>
+    <div class="student">
+        <h1 class="group">Группа 231</h1>
+        <h1 class="name">Сбродов Артур Олегович</h1>
+    </div>
+    <div class="calculator">
+        <form class="form">
+            <div class="number1">
+                <input placeholder="введите число 1" id="numberOne" class="numberOne"></input>
+            </div>
+            <div class="number2">
+                <input placeholder="введите число 2" id="numberTwo"></input>
+            </div>
+            <div class="operation">
+                <button type="button" id="plus">+</button>
+                <button type="button" id="minus" >-</button>
+                <button type="button" id="multiplication" >x</button>
+                <button type="button" id="divide" >:</button>
+                <button type="button" id="clear" onclick="clearNumbers()">C</button>
+            </div>
+            <div class="result" id="result"></div>
+        </form>
+    </div>  
+</body>
+<script src="../../js/index.js"></script>
+</html>
