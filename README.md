@@ -16,7 +16,7 @@ cd <название проекта>
 
    3. **Установите зависимости:**
    
-npm install express path
+npm install express 
 
 
    4. **Запустите сервер:**
