@@ -6,7 +6,7 @@ const PORT = 3000;
 const ROOT_PATH = path.resolve(__dirname,'..', 'pages');
 
 
-app.use(express.static(ROOT_PATH));
+app.use(express.statigitc(ROOT_PATH));
 
 
 
