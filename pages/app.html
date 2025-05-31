@@ -1,22 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Студенческий портал</title>
+  <style>
+
+    body {
+      background-color: #f4f4f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #333;
+    }
+
+    #student-info {
+      background-color: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 300px;
+    }
+
+    #student-info p {
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+    }
+
+    #student-info a {
+      margin-top: 1rem;
+      color: #007bff;
+      font-weight: bold;
+    }
+
+    #student-info a:hover {
+      text-decoration: underline;
+      color: #0056b3;
+    }
+  </style>
 </head>
 <body>
-    <div id="student-info"></div>
-</body>
-</html>
-<script>
+  <div id="student-info"></div>
+
+  <script>
     document.addEventListener("DOMContentLoaded", function () {
-    const infoDiv = document.getElementById("student-info");
-    infoDiv.innerHTML = `
+      const infoDiv = document.getElementById("student-info");
+      infoDiv.innerHTML = `
         <p>Сбродов Артур Олегович</p>
         <p>Группа: 231</p>
         <a href="http://localhost:3000/lab1/%D0%BA%D0%B0%D0%BB%D0%BA/static/html/index.html">ЛАБ 1</a>
         <a href="http://localhost:3000/lab2/todolist/html/index.html">ЛАБ 2</a>
-    `;
-});
-</script>
+      `;
+    });
+  </script>
+</body>
+</html>
