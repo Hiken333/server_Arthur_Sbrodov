@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.name {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.name h1 {
+    font-size: 2rem;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+.form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px 15px;
+    border: 1px solid #000;
+    background: #fff;
+    color: #000;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+.arrayElemenet {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding: 10px 15px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #000;
+    font-size: 1rem;
+}
+
+.task-item button {
+    background-color: transparent;
+    color: #000;
+    border: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.task-item button:hover {
+    text-decoration: underline;
+}
